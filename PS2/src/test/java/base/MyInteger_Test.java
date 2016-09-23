@@ -28,14 +28,14 @@ public class MyInteger_Test {
 	}
 
 	@Test
-	public void testIsEven() {
+	public void TestIsEven() {
 		MyInteger myIntEven = new MyInteger(2);
 		MyInteger myIntOdd = new MyInteger(1);
 		assertTrue(myIntEven.isEven() == true);
 		assertFalse(myIntOdd.isEven() == true);
 	}
 	
-	public void testIsOdd() {
+	public void TestIsOdd() {
 		MyInteger myIntOdd = new MyInteger(1);
 		MyInteger myIntEven = new MyInteger(2);
 		assertTrue(myIntOdd.isOdd() == true);
@@ -43,28 +43,28 @@ public class MyInteger_Test {
 	}
 
 	@Test
-	public void testIsPrime() {
+	public void TestIsPrime() {
 		MyInteger myIntPrime = new MyInteger(11);
 		MyInteger myIntNotPrime = new MyInteger(4);
 		assertTrue(myIntPrime.isPrime() == true);
 		assertFalse(myIntNotPrime.isPrime() == true);
 	}
 	@Test
-	public void testIsEven1() {
+	public void TestIsEven1() {
 		MyInteger myIntEven1 = new MyInteger(120);
 		MyInteger myIntOdd1 = new MyInteger(1337);
 		assertTrue(myIntEven1.isEven() == true);
 		assertFalse(myIntOdd1.isEven() == true);
 	}
 
-	public void testIsOdd1() {
+	public void TestIsOdd1() {
 		MyInteger myIntOdd1 = new MyInteger(11);
 		MyInteger myIntEven1 = new MyInteger(22);
 		assertTrue(myIntOdd1.isOdd() == true);
 		assertFalse(myIntEven1.isOdd() == true);
 	}
 
-	public void testIsPrime1() {
+	public void TestIsPrime1() {
 		MyInteger myIntPrime1 = new MyInteger(5);
 		MyInteger myIntNotPrime1 = new MyInteger(15);
 		assertTrue(myIntPrime1.isPrime() == true);
@@ -72,14 +72,14 @@ public class MyInteger_Test {
 	}
 
 
-	public void testEqualsInt() {
+	public void TestEqualsInt() {
 		MyInteger myIntEquals = new MyInteger(4);
 		assertTrue(myIntEquals.equals(4) == true);
 		assertFalse(myIntEquals.equals(2) == true);
 	}
 
 	@Test
-	public void testEqualsMyInteger() {
+	public void TestEqualsInt1() {
 		MyInteger myIntEquals = new MyInteger(4);
 		assertTrue(myIntEquals.equals(4) == true);
 		assertFalse(myIntEquals.equals(3) == true);
